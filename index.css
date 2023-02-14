@@ -1,7 +1,5 @@
 body {
     --black: #28282B; /* matte black */
-
-
     color: #2b283a;
     font-family: 'Roboto', sans-serif;
     margin: 0;
@@ -114,6 +112,11 @@ header,
     margin: 0 auto;
 }
 
+header img {
+    outline: 1px solid red;
+    width: 100%;
+}
+
 .main-image {
     display: block;
     width: 100%;
@@ -202,6 +205,10 @@ ul {
     header .container {
         justify-content: space-between;
         align-items: center;
+    }
+
+    header img {
+        width: 50%;
     }
 
     nav li {
