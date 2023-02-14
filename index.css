@@ -35,11 +35,11 @@ p {
     margin-bottom: 1em;
 }
 
-.subheading {
+/* .subheading {
     display: block;
     font-size: 1rem;
     color: #d0aaff;
-}
+} */
 
 .section-two h2 {
     color: inherit;
@@ -113,7 +113,6 @@ header,
 }
 
 header img {
-    outline: 1px solid red;
     width: 100%;
 }
 
@@ -227,10 +226,10 @@ ul {
     h2 {
         font-size: 1.75rem;
     }
-
+/* 
     .subheading {
         font-size: 1.25rem;
-    }
+    } */
 
     p {
         font-size: 1.125rem;
