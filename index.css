@@ -1,5 +1,7 @@
 body {
     --black: #28282B; /* matte black */
+    --grey: #D4D4D5; /* dim grey */
+    --gold: #d4b44c; /* metallic gold */
     color: #2b283a;
     font-family: 'Roboto', sans-serif;
     margin: 0;
@@ -18,7 +20,7 @@ h1 {
 }
 
 h2 {
-    color: #451c7a;
+    color: var(--gold);
     font-size: 1.375rem;
     margin-top: 0;
     margin-bottom: 1em;
@@ -54,7 +56,7 @@ a {
 
 a:hover, 
 a:active {
-    color: #d4b44c;
+    color: var(--gold);
 }
 
 .btn {
@@ -70,23 +72,23 @@ a:active {
 
 .btn-dark {
     color: whitesmoke;
-    background: #5f29a3;
+    background: var(--black);
 }
 
 .btn-mid {
-    color: #5f29a3; 
-    background: #f0e0ff; 
+    color: var(--black); 
+    background: var(--grey);
 }
 
 .btn-light {
-    color: #5f29a3; 
+    color: var(--black); 
     background: whitesmoke;
 }
 
 .btn:hover, 
 .btn:active {
-    color: #2b238a;
-    background-color: #f3e885;
+    color: var(--black);
+    background-color: var(--gold);
 }
 
 /* ----- LAYOUT ----- */
