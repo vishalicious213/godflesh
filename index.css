@@ -133,6 +133,7 @@ header img {
     width: 100%;
     border-radius: 4.6px;
     margin-bottom: 1em;
+    object-fit: cover;
 }
 
 .feature-item {
