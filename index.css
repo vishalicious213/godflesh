@@ -44,10 +44,6 @@ p {
     color: #d0aaff;
 } */
 
-/* .section-two h2 {
-    color: inherit;
-} */
-
 /* ----- LINKS ----- */
 
 a {
@@ -167,17 +163,6 @@ ul {
 }
 
 /* ----- MEDIA QUERIES ----- */
-
-/* @media only screen and (min-width: 480px) {
-    .section-two-image-container {
-        display: flex;
-        justify-content: space-between;
-    }
-
-    .feature-image {
-        width: 49%;
-    }
-} */
 
 @media only screen and (max-width: 767px) {
     header {
