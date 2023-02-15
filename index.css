@@ -2,6 +2,7 @@ body {
     --black: #28282B; /* matte black */
     --grey: #D4D4D5; /* dim grey */
     --gold: #d4b44c; /* metallic gold */
+    --white: whitesmoke;
     color: #2b283a;
     font-family: 'Roboto', sans-serif;
     margin: 0;
@@ -43,9 +44,9 @@ p {
     color: #d0aaff;
 } */
 
-.section-two h2 {
+/* .section-two h2 {
     color: inherit;
-}
+} */
 
 /* ----- LINKS ----- */
 
@@ -71,7 +72,7 @@ a:active {
 }
 
 .btn-dark {
-    color: whitesmoke;
+    color: var(--white);
     background: var(--black);
 }
 
@@ -82,7 +83,7 @@ a:active {
 
 .btn-light {
     color: var(--black); 
-    background: whitesmoke;
+    background: var(--white);
 }
 
 .btn:hover, 
@@ -105,7 +106,7 @@ header,
 }
 
 .section-two {
-    color: whitesmoke;
+    color: var(--white);
 }
 
 .container {
