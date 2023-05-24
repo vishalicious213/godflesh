@@ -4,6 +4,8 @@ This is a customization of the first project in Scrimba's Module 6 (Responsive D
 
 Deployed at: https://vish213-godflesh.netlify.app/
 
+![](./images/screenshot.jpg)
+
 ## CSS concepts
 
 - CSS variables
