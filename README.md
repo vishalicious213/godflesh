@@ -4,7 +4,7 @@ This is a customization of the first project in Scrimba's Module 6 (Responsive D
 
 Deployed at: https://vish213-godflesh.netlify.app/
 
-## CSS concepts used:
+## CSS concepts
 
 - CSS variables
 - line-height (unitless, to preserve ratio with font-size)
@@ -22,3 +22,19 @@ Deployed at: https://vish213-godflesh.netlify.app/
 - list-style-type
 - last-child
 - media queries
+
+## HTML concepts
+
+- Google fonts
+- Semantic HTML
+    - header
+    - nav
+    - main
+    - section
+    - footer
+- Unordered lists
+- Anchor tags
+    - named anchors
+    - target="blank"
+- classes
+- IDs
